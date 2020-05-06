@@ -7,11 +7,11 @@ In each time step of pommerman, each agent takes an action according to its obse
 
 ## observation
 Observations mean what are the situations around the agent in a certain range `w`. E.g., a certain observation when `w = 3` is shown as follows:
-
-|--|--|--|
-||wall||
+|    |    |    |
+|----|----|----|
+|    |wall|    |
 |bomb|agent|wall|
-|wall|||
+|wall|    |    |
 
 `w =3` gives 9 cells (and `w =5` gives 25 cells and so on). In each cell, the entity can be a bomb, a rigid wall etc. Please refer to [this page](https://github.com/MultiAgentLearning/playground/tree/master/pommerman#agent-observations) for a detailed description. 
 
