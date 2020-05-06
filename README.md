@@ -8,7 +8,7 @@ In each time step of pommerman, each agent takes an action according to its obse
 ## observation
 Observations mean what are the situations around the agent in a certain range `w`. E.g., a certain observation when `w = 3` is shown as follows:
 
-
+|    |    |    |
 |:----:|:----:|:----:|
 |    |wall|    |
 |bomb|agent|wall|
